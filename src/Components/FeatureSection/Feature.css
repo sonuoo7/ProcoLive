@@ -1,0 +1,124 @@
+/* Feature.css */
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 28px;
+}
+
+.features-list li {
+    margin-bottom: 0px;
+}
+
+
+
+.features-list h5,
+.features-list p {
+    margin: 0;
+    margin: 5px;
+    padding: 0 auto;
+    color: black;
+    /* color: white; */
+    /* padding: 10px; */
+}
+
+.feature-box1 {
+    position: relative;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    margin-top: 20px;
+    /* height: 300px; */
+    /* Set the default height for feature boxes */
+}
+
+.feature-box1:hover {
+    transform: translateY(-5px);
+    background-color: rgb(120, 116, 217)
+        /* Change background color on hover */
+}
+
+.feature-box3 {
+ 
+    /* Set the height for the first feature box */
+}
+
+.feature-box3 {
+    position: relative;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    margin-top: 10px;
+    /* height: 300px; */
+    /* Set the default height for feature boxes */
+}
+
+.feature-box3:hover {
+    transform: translateY(-5px);
+    background-color: rgb(160, 112, 224)
+    /* Change background color on hover */
+}
+
+.feature-box2 {
+    margin-top: -40px;
+    /* Set the height for the third feature box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* Align the third feature box to the center */
+}
+
+.feature-box2 {
+    position: relative;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    /* height: 300px; */
+    /* Set the default height for feature boxes */
+}
+
+.feature-box2:hover {
+    transform: translateY(-5px);
+    background-color: rgb(228, 92, 68);
+    font-weight: 400;
+    /* Change background color on hover */
+}
+
+
+.feature-box4 {
+    margin-top: -50px;
+    /* Set the height for the fourth feature box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* Align the fourth feature box to the center vertically and horizontally */
+}
+.feature-box4 {
+    position: relative;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    /* height: 300px; */
+    /* Set the default height for feature boxes */
+}
+
+.feature-box4:hover {
+    transform: translateY(-5px);
+    background-color: rgb(107, 206, 204);
+    /* Change background color on hover */
+}
+
+.content {
+    margin-top: 200px;
+}
+
+.sidebar {
+    margin-top: 200px;
+}
