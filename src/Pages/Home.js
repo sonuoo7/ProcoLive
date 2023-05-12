@@ -31,22 +31,23 @@ const Hero = () => {
           <Col lg="6" md="6">
             <div className="hero__content">
               <h1
-                className=" mt-4 mb-4 hero__title"
+                className=" m-2 mt-5 mb-4 hero__title"
                 data-aos="fade-up "
                 data-aos-duration="2000"
               >
-                Build it Beautiful. <br /> & Unparalleled.
+                Build Habits. Reach Goals.
+                <br />
+                Hire A ProCo.
               </h1>
               <p className="mb-4">
-                Webify is the all-in-one WordPress theme to build a beautiful
-                online presence for you. Lorem ipsum dolor, sit amet consectetur
-                adipisicing elit. Fuga, eaque!
+                Transform your productivity and achieve your goals with ProCo -
+                Your personal productivity coach. Book a session now and take
+                charge of your success.
               </p>
             </div>
-              <button className="btn" onClick={handleButtonClick}>
-                Book OneVOne
-              </button>
-            
+            <button className="btn" onClick={handleButtonClick}>
+              Book OneVOne
+            </button>
           </Col>
 
           <Col lg="6" md="6">
@@ -58,7 +59,7 @@ const Hero = () => {
       </Container>
       <Feature />
       <ChooseUs />
-      <Testimonial/>
+      <Testimonial />
       <Overlay />
     </section>
   );

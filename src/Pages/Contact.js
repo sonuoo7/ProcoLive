@@ -3,7 +3,7 @@ import { Row, Col, Form, Button, Container } from "react-bootstrap";
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { useNavigate } from "react-router-dom"; // Import useHistory from react-router-dom
-// import "./Contact.css";
+// import "../assests/css/Contact.css";
 // import Ask from '../FAQ/AskCard' 
 // import AskCard from "../FAQ/AskCard";
 
@@ -119,7 +119,7 @@ const Contact = () => {
                 </Form.Control.Feedback>
               )}
             </Form.Group>
-            <Button className=".btn" variant="secondary" type="submit">
+            <Button className=".btn mt-3" variant="secondary" type="submit">
               Submit
             </Button>
           </Form>

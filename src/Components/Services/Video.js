@@ -15,11 +15,13 @@ const Video = () => {
       />
       <Container className="position-absolute top-50 start-50 translate-middle">
         <div className="content text-center">
-          <h1 className="heading">Your wellness builds upon the agency daily.</h1>
+          <h1 className="heading">
+            Your wellness builds upon the agency daily.
+          </h1>
           <p className="content__paragraph">
-            Proco is Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Excepturi cupiditate animi deserunt libero nesciunt corporis
-            explicabo nobis ex quo molestiae!
+            At ProCo, our team of productivity coaches provides personalized
+            support and guidance to help you overcome obstacles, cultivate
+            healthy habits, and prioritize your mental wellness.
           </p>
           <Row className="justify-content-center">
             <Col md={4} className="mx-3">
