@@ -12,7 +12,7 @@ const NewsLetter = () => {
             <h2 className="mb-4">Subscribe Our Newsletter</h2>
             <div className="subscribe">
               <input type="text" placeholder="Email" />
-              <button className="btn">Subscribe</button>
+              <button className="btn align-content-center">Subscribe</button>
             </div>
           </Col>
         </Row>

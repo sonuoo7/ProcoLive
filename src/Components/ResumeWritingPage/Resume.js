@@ -9,7 +9,8 @@ import clock from "../../assests/img/header-clock.png"
 // import "./assests/css/responsive.css";
 // import "./assests/css/bootstrap.min.css";
 // import "./assests/css/fontawesome.min.css";
-// import "./assests/css/flaticon.css";
+// import "../../assests/css/faliton.css";
+// import "../../assests/js/TweenMax"
 
 const Resume = () => {
   return (
