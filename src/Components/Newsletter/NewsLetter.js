@@ -9,7 +9,7 @@ const NewsLetter = () => {
       <div className="newsletter">
         <Row>
           <Col lg="12" className="text-center">
-            <h2 className="mb-4">Subscribe Our Newsletter</h2>
+            <h2 className="mb-4">Subscribe</h2>
             <div className="subscribe">
               <input type="text" placeholder="Email" />
               <button className="btn align-content-center">Subscribe</button>
