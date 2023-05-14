@@ -31,7 +31,7 @@ const ChooseUs = () => {
               >
                 {showVideo ? (
                   <ReactPlayer
-                    url="https://www.youtube.com/watch?v=wAOldLWIDSM"
+                    url="https://www.youtube.com/watch?v=5psbLib5FOE"
                     playing={true}
                     loop={true}
                     muted={false}
