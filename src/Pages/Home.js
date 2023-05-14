@@ -45,9 +45,14 @@ const Hero = () => {
                 charge of your success.
               </p>
             </div>
-            <button className="btn" onClick={handleButtonClick}>
+            <a
+              className="btn"
+              href="https://calendly.com/subh031997/demo"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Book OneVOne
-            </button>
+            </a>
           </Col>
 
           <Col lg="6" md="6">
