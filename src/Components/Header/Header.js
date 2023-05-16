@@ -20,7 +20,7 @@ const navLinks = [
   },
   {
     display: "Resume Writing",
-    url: "/resume",
+    url: "https://resume.proco.co.in/",
   },
   {
     display: "Contact Us",

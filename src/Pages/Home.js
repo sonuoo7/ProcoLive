@@ -51,7 +51,7 @@ const Hero = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Book OneVOne
+              Book One on One
             </a>
           </Col>
 

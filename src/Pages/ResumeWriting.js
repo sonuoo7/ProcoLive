@@ -8,10 +8,10 @@ import Resume from "../ResumeWritingPage/Resume"
 const ResumeWriting = () => {
   return (
     <div>
-      <Header/>
+      {/* <Header/>
       <Featuresection/>
       <Testimonial/>
-      <Resume/>
+      <Resume/> */}
     </div>
   )
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Feature.css"; // Import your CSS file here
+import { Link } from "react-router-dom";
 
 const WebifyContent = () => {
   return (
@@ -79,7 +80,9 @@ const WebifyContent = () => {
               and take your career to the next level, consider working with a
               ProCo.
             </p>
-            <button className="btn">Take 1-min Tour</button>
+            <Link className="btn" to="https://resume.proco.co.in/">
+              Take 1-min Tour
+            </Link>
             {/* Add your tour content here */}
           </div>
         </Col>
