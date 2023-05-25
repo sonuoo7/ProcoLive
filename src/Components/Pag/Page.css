@@ -13,10 +13,10 @@
 /*  */
 
 .img1 {
-    margin-top: 10px;
+    margin-top: -10px;
     /* Set the height for the third feature box */
     display: flex;
-    height: 250px;
+    height: 170px;
     flex-direction: column;
     justify-content: center;
     /* Align the third feature box to the center */
@@ -25,7 +25,8 @@
     margin-top: -40px;
     /* Set the height for the third feature box */
     display: flex;
-    height: 300px;
+    height: 200px;
+    width: 250px;
     flex-direction: column;
     justify-content: center;
     /* Align the third feature box to the center */

@@ -14,7 +14,7 @@ const Feature = () => {
                 <div className="feature-box1 p-3">
                   <i className="ri-star-fill"></i>
                   <h5>Time Management</h5>
-                  <br />
+                  {/* <br /> */}
                   <p className="text-center">
                     A ProCo teaches clients effective time management strategies
                     that optimize their productivity and minimize wasted time.
@@ -25,7 +25,7 @@ const Feature = () => {
                 <div className="feature-box2 p-3">
                   <i className="ri-star-fill"></i>
                   <h5>Mindset Shifts:</h5>
-                  <br />
+                  {/* <br /> */}
                   <p className="text-center">
                     A ProCo helps clients cultivate a growth mindset and
                     overcome limiting beliefs that hold them back from achieving
@@ -37,7 +37,7 @@ const Feature = () => {
                 <div className="feature-box3 p-3">
                   <i className="ri-star-fill"></i>
                   <h5>Strategic Planning</h5>
-                  <br />
+                  {/* <br /> */}
                   <p className="text-center">
                     A ProCo helps clients develop a strategic plan that aligns
                     with their values, strengths, and vision for the future.
@@ -46,9 +46,9 @@ const Feature = () => {
               </li>
               <li>
                 <div className="feature-box4 p-3">
-                  <i className="ri-star-fill"></i>
+                  <i className="ri-star-fill mt-5"></i>
                   <h5>Work-Life Balance</h5>
-                  <br />
+                  {/* <br /> */}
                   <p className="text-center">
                     A ProCo helps clients achieve a healthy work-life balance by
                     setting boundaries, managing stress, and prioritizing

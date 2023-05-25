@@ -62,6 +62,7 @@ const Hero = () => {
           </Col>
         </Row>
       </Container>
+      <hr />
       <Feature />
       <ChooseUs />
       <Testimonial />

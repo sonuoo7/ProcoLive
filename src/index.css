@@ -26,17 +26,17 @@ h4,
 h5,
 h6 {
   font-size: 3.5rem;
-  line-height: 70px;
+  /* line-height: 70px; */
   /* color: #0a2b1e; */
-  font-weight: 600;
+  font-weight: 500;
 }
 
 p {
-  color: #596b65;
+  /* color: #596b65; */
   font-size: 2.2rem;
-  line-height: 35px;
+  /* line-height: 35px; */
   font-family: "Roboto", serif;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 a.btn {

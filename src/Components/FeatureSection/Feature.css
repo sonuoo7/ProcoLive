@@ -2,26 +2,10 @@
 
 .features-list {
     list-style-type: none;
-    padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 28px;
-}
-
-.features-list li {
-    margin-bottom: 0px;
-}
-
-
-
-.features-list h5,
-.features-list p {
-    /* margin: 0; */
-    /* margin: 2px; */
-    /* padding: 0 auto; */
+    gap: 18px;
     color: black;
-    /* color: white; */
-    /* padding: 10px; */
 }
 
 .feature-box1 {
@@ -35,16 +19,12 @@
     /* Set the default height for feature boxes */
 }
 
-.feature-box1:hover {
+.feature-box1:hover{
     transform: translateY(-5px);
     background-color: rgb(120, 116, 217);
-    color: white;
+    color: #fff;
+    /* color: azure; */
         /* Change background color on hover */
-}
-
-.feature-box3 {
- 
-    /* Set the height for the first feature box */
 }
 
 .feature-box3 {
@@ -54,7 +34,7 @@
     border-radius: 10px;
     border: 1px solid wheat;
     /* margin-top: 10px; */
-    /* height: 300px; */
+    height: 250px;
     /* Set the default height for feature boxes */
 }
 
@@ -90,16 +70,6 @@
     /* Change background color on hover */
 }
 
-
-.feature-box4 {
-    /* margin-top: -50px; */
-    /* Set the height for the fourth feature box */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    /* Align the fourth feature box to the center vertically and horizontally */
-}
 .feature-box4 {
     position: relative;
     transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
@@ -114,13 +84,16 @@
 .feature-box4:hover {
     transform: translateY(-5px);
     background-color: rgb(107, 206, 204);
+    color: #fff;
     /* Change background color on hover */
 }
 
 .content {
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    padding: 20px;
+    margin-top: 100px;
 }
 
 .sidebar {
-    margin-top: 200px;
+    margin-top: 150px;
 }
