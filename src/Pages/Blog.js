@@ -1,29 +1,12 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from 'react'
+import Blog from "../Components/Blog/Blog"
 
-const WordPressPage = () => {
-  const [pageContent, setPageContent] = useState("");
-
-  useEffect(() => {
-    const fetchPageContent = async () => {
-      try {
-        const response = await axios.get(
-          "https://com04808.wordpress.com/wp-json/wp/v2/pages/your-page-slug"
-        );
-        setPageContent(response.data.content.rendered);
-      } catch (error) {
-        console.error("Error fetching page content:", error);
-      }
-    };
-
-    fetchPageContent();
-  }, []);
-
+const Blog = () => {
   return (
     <div>
-      <div dangerouslySetInnerHTML={{ __html: pageContent }} />
+      <Blog/>
     </div>
-  );
-};
+  )
+}
 
-export default WordPressPage;
+export default Blog

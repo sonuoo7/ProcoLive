@@ -8,7 +8,12 @@ const Blog = () => {
     const fetchPosts = async () => {
       try {
         const response = await axios.get(
-          "http://livtecharc.com/wp-json/wp/v2"
+          "http://livtecharc.com/wp-json/wp/v2/posts",
+          {
+            headers: {
+              Authorization: "HJsP E6gl VvYL Ay6X 6wAIURE2",
+            },
+          }
         );
         setPosts(response.data);
       } catch (error) {

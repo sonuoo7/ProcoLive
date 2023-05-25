@@ -15,11 +15,10 @@ const About = () => {
         <Container className="mb-2">
           <AboutHeader />
           <Page />
-         
-      <Video />
+          <Video />
         </Container>
       </section>
-      <Services/>
+      <Services />
     </>
   );
 };

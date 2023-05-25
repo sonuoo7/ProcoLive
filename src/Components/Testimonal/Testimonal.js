@@ -40,11 +40,11 @@ const Testimonial = () => {
       <Carousel
         autoPlay={true}
         interval={1500}
-        infiniteLoop={true}
-        transitionTime={500}
-        showStatus={false}
-        showThumbs={false}
-        stopOnHover={true}
+        // infiniteLoop={true}
+        // transitionTime={500}
+        // showStatus={false}
+        // showThumbs={false}
+        // stopOnHover={true}
       >
         {testimonialData.map((testimonial, index) => (
           <Carousel.Item key={index}>
