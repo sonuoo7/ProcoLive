@@ -6,6 +6,7 @@ import Feature from "../Components/FeatureSection/Feature";
 import ChooseUs from "../Components/ChooseUs/ChooseUs";
 import Overlay from "../Components/Overlay/Overlay";
 import Testimonial from "../Components/Testimonal/Testimonal";
+import Feature2 from "../Components/FeatureSection/Feature2";
 
 const Hero = () => {
   const location = useLocation();
@@ -63,6 +64,7 @@ const Hero = () => {
         </Row>
       </Container>
       <hr />
+      <Feature2/>
       <Feature />
       <ChooseUs />
       <Testimonial />

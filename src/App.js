@@ -8,7 +8,6 @@ import About from "./Pages/About"
 import Contact from "./Pages/Contact"
 import Footer from "./Components/Footer/Footer"
 import Blog from "./Components/Blog/Blog"
-// import ResumeWriting from "./Components/ResumeWritingPage/ResumeWriting"
 import NewsLetter from "./Components/Newsletter/NewsLetter"
 import WhatsApp from "./Components/Whatsapp/WhatsApp"
 import ResumeWriting from "./Pages/ResumeWriting";
@@ -21,7 +20,7 @@ const App = () => {
         <Route exact path="/about" element={<About />}></Route>
         <Route exact path="/blog" element={<Blog />}></Route>
         <Route exact path="/contact" element={<Contact />}></Route>
-        <Route exact path="/resume" element={<ResumeWriting />}></Route>
+        {/* <Route exact path="/resume" element={<ResumeWriting />}></Route> */}
       </Routes>
       <NewsLetter />
       <Footer />
